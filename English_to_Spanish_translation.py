@@ -86,4 +86,4 @@ train_eng_texts = [pairs[0] for pairs in train_pairs]
 train_spa_texts = [pairs[1] for pairs in train_pairs]
 eng_vectorization.adapt(train_eng_texts)
 spa_vectorization.adapt(train_spa_texts)
-
+#
